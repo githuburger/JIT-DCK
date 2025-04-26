@@ -1,4 +1,4 @@
-# JITDCK Replication Package
+# JIT-DCK Replication Package
 
 This repository contains the implementation code and the methodological guidelines to replicate the study described in the paper "Just-In-Time Defect Prediction and Localization via Kolmogorov–Arnold Networks".
 
@@ -29,7 +29,7 @@ Step 1: Run the following two (*.ipynb) files to convert the line-level data ann
 
 ./JITDCK/process and label defect code lines/label defect lines.ipynb
   ```
-Step 2: Train and evaluate our ITDC and JIT-Smart in the JIT-DP task.
+Step 2: Train and evaluate our JIT-DCK and JIT-Smart in the JIT-DP task.
   ```shell
 sh train_jitdck.sh
 sh train_jitsmart.sh
@@ -39,7 +39,7 @@ sh train_jitsmart.sh
 ### 📊 RQ2: How effective is our JIT-DCK model in JIT defect localization? Does it demonstrate greater cost-effectiveness when compared with the most advanced defect localization methods?
 
 
-Step 1: Train and evaluate our ITDC and JIT-Smart in the JIT-DL task.
+Step 1: Train and evaluate our JIT-DCK and JIT-Smart in the JIT-DL task.
   ```shell
 sh train_jitdck.sh
 sh train_jitsmart.sh
@@ -48,13 +48,13 @@ sh train_jitsmart.sh
 
 ### 🌐 RQ3: How does the accuracy of JIT-DCK compare to the SOTA models in cross-project experiments?
 
-Step 1: Generate the cross-project data for our ITDC and JIT-Smart.
+Step 1: Generate the cross-project data for our JIT-DCK and JIT-Smart.
   ```shell
 python jitdck cross prj data generate.py
 python jitsmart cross prj data generate.py
   ```
 
-Step 2: Train and evaluate our ITDC and JIT-Smart in the JIT-DP and JIT-DL tasks under cross-project settings.
+Step 2: Train and evaluate our JIT-DCK and JIT-Smart in the JIT-DP and JIT-DL tasks under cross-project settings.
   ```shell
 sh train_jitdck_cross_prj.sh
 sh train_jitsmart_cross_prj.sh
