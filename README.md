@@ -4,7 +4,7 @@ This repository contains the implementation code and the methodological guidelin
 
 
 ## 🎯 Overview
-We propose a unified approach for real-time defect identification (JIT-DP) and precise line-level localization (JIT-DL) in agile development, addressing unstructured code changes and complex feature interactions.[Overview](Overview.png) Experiments are conducted on [JIT-Defect4J](https://github.com/jacknichao/JIT-Fine) - a multi-granularity dataset with 21 Java projects containing commit-level labels, line-level annotations, and expert-designed features.
+We propose a unified approach for real-time defect identification (JIT-DP) and precise line-level localization (JIT-DL) in agile development, addressing unstructured code changes and complex feature interactions.To better illustrate this approach, [an overview diagram](Overview.jpg) is provided.Experiments are conducted on [JIT-Defect4J](https://github.com/jacknichao/JIT-Fine) - a multi-granularity dataset with 21 Java projects containing commit-level labels, line-level annotations, and expert-designed features.
 
 
 ## 🔧 Environment Setup
